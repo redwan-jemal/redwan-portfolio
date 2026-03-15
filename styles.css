@@ -1,0 +1,234 @@
+body {
+  padding-top: 70px;
+  background: #f8fafc;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+#home {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+}
+
+#home h1 {
+  color: #1e293b;
+}
+
+#home p {
+  color: #475569;
+}
+.hero-img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  transition:
+    transform 0.5s ease,
+    box-shadow 0.5s ease;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+  margin-top: 1.5rem;
+}
+
+.hero-img:hover {
+  transform: scale(1.08) rotate(1deg);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25);
+}
+#about h2 {
+  color: #1e293b;
+}
+
+#about p {
+  color: #475569;
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+#about img {
+  border-radius: 10px;
+   transition:
+    transform 0.5s ease,
+    box-shadow 0.5s ease;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+#about img:hover {
+   transform: scale(1.08) ;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25);
+}
+#education h2 {
+  color: #1e293b;
+}
+
+#education .card {
+  border-radius: 10px;
+  border: none;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+
+}
+#education .card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+
+}
+#education .card h5 {
+  color: #0a66c2;
+}
+
+#education .card p {
+  color: #475569;
+  font-size: 1rem;
+}
+#achievements h2 {
+  color: #1e293b;
+}
+
+#achievements .card h5 {
+  color: #0a66c2;
+}
+#achievements .card {
+  background: white;
+  border-radius: 10px;
+  padding: 25px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+#achievements .card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+#achievements .card p {
+  color: #475569;
+  font-size: 1rem;
+}
+
+#achievements .btn {
+  font-size: 0.85rem;
+  margin-top: 10px;
+}
+
+#leadership {
+  background-color: #f8f9fa;
+}
+
+#leadership h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.leadership-card {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+  height: 100%;
+}
+
+.leadership-card:hover {
+  transform: translateY(-5px);
+}
+
+.leadership-card h5 {
+  margin-bottom: 15px;
+  font-weight: bold;
+  color: #0a66c2;
+}
+.leadership-card p {
+  color: #475569;
+}
+.project-card {
+  background: white;
+  border-radius: 10px;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+   display: flex;
+  flex-direction: column;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.project-card h5 {
+  font-weight: bold;
+  color: #0a66c2;
+}
+
+.project-card p {
+  font-size: 15px;
+  color: #475569;
+  flex-grow: 1;
+}
+
+.project-card a {
+  text-decoration: none;
+}
+.project-card .btn {
+  margin-top: auto; 
+}
+.skill-card {
+  background: white;
+  border-radius: 10px;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.skill-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.skill-card h5 {
+  font-weight: bold;
+  color: #0a66c2;
+}
+
+.skill-card ul li {
+  padding: 10px 0;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+}
+.skill-card ul li {
+  color: #475569;
+}
+
+.skill-card ul li i {
+  width: 25px;
+  text-align: center;
+}
+#contact label{
+   color: #0a66c2;
+}
+.footer {
+  background: #1e293b; 
+  color: #ddd;
+  border-top: 2px solid #0d6efd; 
+}
+
+.footer-link {
+  color: #ddd;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s, transform 0.3s;
+}
+
+.footer-link i {
+  font-size: 16px;
+}
+
+.footer-link:hover {
+  color: #0d6efd;      
+  transform: translateY(-2px); 
+}
+
+.footer p {
+  color: #aaa;
+  margin-top: 0.5rem;
+}
