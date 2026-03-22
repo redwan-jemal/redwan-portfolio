@@ -1,7 +1,17 @@
 body {
   padding-top: 70px;
   background: #f8fafc;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
+}
+p{
+   color: #475569;
+   text-align: justify;
+}
+h1, h2 {
+  color: #1e293b;
+}
+h5{
+    color: #0a66c2;
 }
 #home {
   min-height: 80vh;
@@ -9,13 +19,8 @@ body {
   align-items: center;
 }
 
-#home h1 {
-  color: #1e293b;
-}
 
-#home p {
-  color: #475569;
-}
+
 .hero-img {
   width: 250px;
   height: 250px;
@@ -31,12 +36,8 @@ body {
   transform: scale(1.08) rotate(1deg);
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25);
 }
-#about h2 {
-  color: #1e293b;
-}
 
 #about p {
-  color: #475569;
   font-size: 1.2rem;
   line-height: 1.6;
 }
@@ -52,9 +53,7 @@ body {
    transform: scale(1.08) ;
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25);
 }
-#education h2 {
-  color: #1e293b;
-}
+
 
 #education .card {
   border-radius: 10px;
@@ -70,21 +69,13 @@ body {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
 
 }
-#education .card h5 {
-  color: #0a66c2;
-}
 
 #education .card p {
-  color: #475569;
-  font-size: 1rem;
-}
-#achievements h2 {
-  color: #1e293b;
+
+  font-size: 1.2rem;
 }
 
-#achievements .card h5 {
-  color: #0a66c2;
-}
+
 #achievements .card {
   background: white;
   border-radius: 10px;
@@ -100,7 +91,7 @@ body {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
 }
 #achievements .card p {
-  color: #475569;
+
   font-size: 1rem;
 }
 
@@ -116,6 +107,8 @@ body {
 #leadership h2 {
   text-align: center;
   margin-bottom: 40px;
+  font-weight: bold;
+
 }
 
 .leadership-card {
@@ -134,11 +127,34 @@ body {
 .leadership-card h5 {
   margin-bottom: 15px;
   font-weight: bold;
-  color: #0a66c2;
+ 
 }
-.leadership-card p {
-  color: #475569;
+
+.vision-card {
+  background: white;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  padding: 25px;
+  height: 100%;
+
 }
+
+.vision-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+.vision-card h5 {
+  font-weight: bold;
+
+}
+
+.vision-card p {
+  font-size: 16px;
+  line-height: 1.6;
+    
+}
+
 .project-card {
   background: white;
   border-radius: 10px;
@@ -156,12 +172,12 @@ body {
 
 .project-card h5 {
   font-weight: bold;
-  color: #0a66c2;
+ 
 }
 
 .project-card p {
   font-size: 15px;
-  color: #475569;
+
   flex-grow: 1;
 }
 
@@ -186,7 +202,7 @@ body {
 
 .skill-card h5 {
   font-weight: bold;
-  color: #0a66c2;
+
 }
 
 .skill-card ul li {
@@ -231,4 +247,5 @@ body {
 .footer p {
   color: #aaa;
   margin-top: 0.5rem;
+  text-align: center;
 }
